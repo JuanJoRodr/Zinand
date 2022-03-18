@@ -142,31 +142,13 @@ body
         align-items: center;
     }
 
-    .container .navbar .logo .logoname
-    {
-        font-size: 1.8rem;
-        margin-left: 1rem;
-        text-shadow: 1px 1px 1px rgba(16,16,16,.1),
-                     1px 2px 1px rgba(16,16,16,.1),
-                     1px 3px 1px rgba(16,16,16,.1),
-                     1px 4px 1px rgba(16,16,16,.1),
-                     1px 5px 1px rgba(16,16,16,.1);
-    }
 
     .container .navbar .logo img
     {
-        width: 4rem;
-        animation: rotate 8s linear infinite;
-        border-radius: 50%;
+        width: 20rem;
+        border-radius: 100%;
     }
 
-    @keyframes rotate
-    {
-        from
-        {
-            transform: rotate(-360deg);
-        }
-    }
     
     .navbar .searchbox
     {
