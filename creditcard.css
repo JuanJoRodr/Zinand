@@ -1,4 +1,5 @@
 body {
+    background: url(img/Depositphotos_2425789_XL.jpg);
     margin: 0;
     padding: 0;
     font-family: "Lato", sans-serif;
@@ -10,41 +11,6 @@ body {
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to bottom, #00a79f, #17a2a7);
-  }
-  .background {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    filter: blur(32px);
-  }
-  .circle {
-    position: absolute;
-    border-radius: 100%;
-  }
-  .circle-0 {
-    top: calc(50% - 683px);
-    left: calc(50% - 852px);
-    width: 856px;
-    height: 856px;
-    background-image: linear-gradient(128deg, #2ac5b8 50%, #15ac93 100%);
-    z-index: 3;
-  }
-  .circle-1 {
-    top: calc(50% - 859px);
-    left: calc(50% - 130px);
-    width: 1146px;
-    height: 1146px;
-    background-image: linear-gradient(to bottom, #24b8b0, #1ec0a5);
-    z-index: 1;
-  }
-  .circle-2 {
-    top: calc(50% + 51px);
-    left: calc(50% + 146px);
-    width: 482px;
-    height: 482px;
-    background-image: linear-gradient(139deg, #58fdd4 7%, #27afa8 63%);
-    z-index: 2;
   }
   .card {
     position: absolute;
@@ -53,7 +19,6 @@ body {
     transform: translate(-50%, -50%);
     width: 856px;
     height: 540px;
-    background-image: linear-gradient(122deg, hsl(167, 73%, 43%), #41afa6 42%, #17afb9);
     border-radius: 32px;
     overflow: hidden;
     box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.32),
