@@ -10,6 +10,7 @@ body {
   .login-box {
     width: 320px;
     height: 420px;
+    border-radius: 10px;
     background: rgb(251, 252, 252);
     color: rgb(26, 11, 243);
     top: 50%;
