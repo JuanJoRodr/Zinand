@@ -17,7 +17,7 @@ html
 
 .fa
 {
-    color: #33cc33;
+    color: #00004d;
 }
  
 body
@@ -62,7 +62,7 @@ body
 
 .container .card:hover
 {
-    background: #000;
+    background: #00004d;
     color: #fff;
 }
 
@@ -166,7 +166,7 @@ body
 
     .navbar .searchbox input:focus
     {
-        background: #000;
+        background: #00004d;
         color: #fff;
         padding: .8rem 23rem .8rem 2rem;
     }
@@ -208,7 +208,7 @@ body
     {
         padding: .5rem;
         color: #fff;
-        background: #000;
+        background: #00004d;
         border-radius: 50%;
         transition: .3s;
     }
@@ -257,7 +257,7 @@ body
 
     .sidebar .fa
     {
-        color: #000;
+        color: #00004d;
         font-size: 1.8rem;
         padding: .5rem;
     }
@@ -271,7 +271,7 @@ body
 
     .sidebar ul li a
     {
-        color: #000;
+        color: #00004d;
         text-transform: capitalize;
         font-weight: 700;
     }
@@ -377,7 +377,7 @@ body
 
 .row-1 .box .content a{
     font-size: 1.2rem;
-    color: #33cc33;
+    color: #00004d;
 }
 /*ROW-1 CARDS CSS END*/
 
@@ -482,7 +482,7 @@ body
     position: absolute;
     bottom: 0;
     width: 100%;
-    background: #33cc33;
+    background: #00004d;
     border-radius: .6rem;
     animation: bar 10s linear infinite;
     animation-delay: calc(-2s*var(--i));
@@ -617,7 +617,7 @@ body
                             right: .2rem;
                             width: 3.3rem;
                             height: 3.3rem;
-                            background: #000;
+                            background: #00004d;
                             display: flex;
                             justify-content: center;
                             align-items: center;
