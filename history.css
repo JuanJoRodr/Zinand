@@ -1,5 +1,5 @@
 :root {
-    --main-color: #4d4dff;
+    --main-color: #00004d;
     --color-dark: #1D2231;
     --text-grey: #8390A2;
 }
@@ -172,7 +172,8 @@ header label span {
 main {
     margin-top: 85px;
     padding: 2rem 1.5rem;
-    background: #f1f5f9;
+    background: url(img/Depositphotos_2425789_XL.jpg) no-repeat center top;
+    background-size: cover;
     min-height: calc(100vh - 90px);
 }
 
