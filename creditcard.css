@@ -10,6 +10,17 @@ body {
     width: 100vw;
     height: 100vh;
   }
+  h2{
+    height: 180px;
+    font-size: xx-large;
+    border-radius: 20px;
+    padding: 3rem 0rem 3rem 4rem;
+    color: #fff;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
   .card {
     position: absolute;
     top: 50%;
