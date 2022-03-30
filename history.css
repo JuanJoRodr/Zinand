@@ -1,7 +1,7 @@
 :root {
     --main-color: #00004d;
     --color-dark: #1D2231;
-    --text-grey: #00004d;
+    --text-grey: #8390A2;
 }
 
 * {
@@ -188,8 +188,8 @@ main {
 .card-single {
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(to top right, rgba(255,255,255,.4), rgba(255,255,255,.5));
-    border-radius: 1.4rem !important;
+    background: #fff;
+    border-radius: 20px !important;
     padding: 2rem;
     border-radius: 2px;
 }
@@ -225,8 +225,8 @@ main {
 }
 
 .card {
-    background: linear-gradient(to top right, rgba(255,255,255,.4), rgba(255,255,255,.5));
-    border-radius: 1.4rem !important; 
+    background: #fff;
+    border-radius: 20px !important; 
 }
 
 .card-header {
@@ -237,7 +237,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #00004d;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .card-header button {
@@ -254,8 +254,8 @@ table {
 }
 
 thead tr {
-    border-top: 1px solid #00004d;
-    border-bottom: 2px solid #00004d;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 2px solid #f0f0f0;
 }
 
 thead td {
