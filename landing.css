@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
 
 :root{
-    --purple:#814096;
-    --pink:#F83292;
-    --gradient:linear-gradient(90deg, var(--purple), var(--pink));
+    --green:rgb(119, 192, 119);
+    --blue:blue;
+    --gradient:linear-gradient(90deg, var(--green), var(--blue));
 }
 
 *{
@@ -16,7 +16,7 @@
 }
 
 *::selection{
-    background:var(--pink);
+    background:var(--blue);
     color:#fff;
 }
 
@@ -79,21 +79,22 @@ header{
 
 header .logo{
     font-size: 2rem;
-    color:var(--purple);
+    color:var(--green);
 }
 
 header .logo span{
-    color:var(--pink);
+    color:var(--blue);
+    font-size: xx-large;
 }
 
 header .navbar a{
     font-size: 1.7rem;
     margin-left: 2rem;
-    color:var(--purple);
+    color:var(--green);
 }
 
 header .navbar a:hover{
-    color:var(--pink);
+    color:var(--blue);
 }
 
 header input{
@@ -102,7 +103,7 @@ header input{
 
 header label{
     font-size: 3rem;
-    color:var(--purple);
+    color:var(--green);
     cursor: pointer;
     visibility: hidden;
     opacity: 0;
@@ -112,7 +113,7 @@ header label{
     display: flex;
     align-items: center;
     justify-content: center;
-    background:url(../images/home-bg-img.png) no-repeat;
+    background:url(img/home-bg-img2-01.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -138,7 +139,7 @@ header label{
 }
 
 .home .content h3 span{
-    color:var(--pink);
+    color:var(--blue);
     text-transform: uppercase;
 }
 
@@ -185,7 +186,7 @@ header label{
 }
 
 .about{
-    background:url(../images/about-bg.png) no-repeat;
+    background:url(img/about-bg-01.png) no-repeat;
     background-size: cover;
     background-position: center;
     padding-bottom: 3rem;
@@ -228,7 +229,7 @@ header label{
 .newsletter{
     text-align: center;
     padding:5rem 1rem;
-    background:url(../images/subscribe-bg.png) no-repeat;
+    background:url(img/subscribe-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -319,12 +320,12 @@ header label{
 }
 
 .review .box-container .box .user h3{
-    color:var(--pink);
+    color:var(--blue);
     font-size: 2rem;
 }
 
 .review .box-container .box .user .stars i{
-    color:var(--purple);
+    color:var(--green);
     font-size: 1.5rem;
     padding:1rem 0;
 }
@@ -356,18 +357,18 @@ header label{
 
 .pricing .box-container .box:nth-child(2),
 .pricing .box-container .box:hover{
-    border:.2rem solid var(--pink);
+    border:.2rem solid var(--blue);
 }
 
 .pricing .box-container .box .title{
-    color:var(--purple);
+    color:var(--green);
     font-size: 2.5rem;
     padding-top: 1rem;
 }
 
 .pricing .box-container .box .price{
     font-size: 4rem;
-    color:var(--pink);
+    color:var(--blue);
     padding:1rem 0;
 }
 
@@ -460,12 +461,12 @@ header label{
 .contact form .inputBox textarea:valid ~ label{
     top:-.5rem;
     font-size: 1.5rem;
-    color:var(--pink);
+    color:var(--blue);
 }
 
 .footer{
     padding-top: 3rem;
-    background:url(../images/footer-bg.png) no-repeat;
+    background:url(img/footer-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -483,7 +484,7 @@ header label{
 .footer .box-container .box h3{
     font-size: 2.5rem;
     padding:1rem 0;
-    color:#fff;
+    color:#0004d0;
     text-decoration: underline;
     text-underline-offset: 1rem;
 }
@@ -491,14 +492,14 @@ header label{
 .footer .box-container .box p{
     font-size: 1.5rem;
     padding:.5rem 0;
-    color:#eee;
+    color:#0004d0;
 }
 
 .footer .box-container .box a{
     display: block;
     font-size: 1.5rem;
     padding:.5rem 0;
-    color:#eee;
+    color:#0004d0;
 }
 
 .footer .box-container .box a:hover{
@@ -515,7 +516,7 @@ header label{
     margin-right: 1rem;
     border-radius: 50%;
     background:#fff;
-    color:var(--pink);
+    color:var(--blue);
     font-size: 1.5rem;
     height:4.5rem;
     width:4.5rem;
@@ -527,7 +528,7 @@ header label{
     font-size: 2rem;
     font-weight: normal;
     letter-spacing: .1rem;
-    color:#fff;
+    color: #0004d0;
     border-top: .1rem solid #fff5;
     padding:2.5rem 1rem;
     text-align: center;
