@@ -11,7 +11,7 @@ body {
     width: 320px;
     height: 420px;
     border-radius: 10px;
-    background: linear-gradient(to top right, rgba(247, 232, 232, 0.4), rgba(228, 207, 207, 0.5));
+    background: #fff;
     border-radius: 1.4rem;
     color: rgb(26, 11, 243);
     top: 50%;
