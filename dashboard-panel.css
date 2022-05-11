@@ -166,7 +166,7 @@ body
 
     .navbar .searchbox input:focus
     {
-        background: #00004d;
+        background: rgb(119, 192, 119);
         color: #fff;
         padding: .8rem 23rem .8rem 2rem;
     }
@@ -497,7 +497,7 @@ body
     position: absolute;
     bottom: 0;
     width: 100%;
-    background: rgb(9, 13, 231);
+    background: blue;
     border-radius: .6rem;
     animation: bar 10s linear infinite;
     animation-delay: calc(-10s*var(--i));
