@@ -1,7 +1,7 @@
 :root {
-    --main-color: rgb(227, 220, 220);
+    --main-color: #fff;
     --color-dark: #1D2231;
-    --text-grey: #8390A2;
+    --text-grey: rgb(78, 76, 76);
 }
 
 * {
@@ -121,11 +121,11 @@ header {
 }
 
 header h2 {
-    color: #222;
+    color: blue;
 }
 a{
     text-decoration: none;
-    color: #fff;
+    color: blue;
 }
 header label span {
     font-size: 1.7rem;
@@ -166,7 +166,7 @@ header label span {
 
 .user-wrapper small {
     display: inline-block;
-    color: var(--text-grey);
+    color: var(--color-dark);
 }
 
 main {
@@ -188,7 +188,7 @@ main {
 .card-single {
     display: flex;
     justify-content: space-between;
-    background: #fff;
+    background: rgb(119, 192, 119);
     border-radius: 20px !important;
     padding: 2rem;
     border-radius: 2px;
@@ -201,7 +201,7 @@ main {
 }
 
 .card-single div:first-child span {
-    color: var(--text-grey);
+    color: var(--main-color);
     border-radius: 20px;
 }
 
@@ -209,11 +209,13 @@ main {
     background: var(--main-color);
     border-radius: 20px;
 }
-
+.card-single h1{
+    color: #fff;
+}
 .card-single:last-child h1,
 .card-single:last-child div:first-child span,
 .card-single:last-child div:last-child span {
-    color: #fff;
+    color: blue;
     border-radius: 20px;
 }
 
@@ -237,13 +239,13 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid #bebaba;
 }
 
 .card-header button {
     background: var(--main-color);
     border-radius: 10px;
-    color: #fff;
+    color: blue;
     font-size: .8rem;
     padding: .5rem 1rem;
     border: 1px solid var(--main-color);
@@ -254,8 +256,8 @@ table {
 }
 
 thead tr {
-    border-top: 1px solid #f0f0f0;
-    border-bottom: 2px solid #f0f0f0;
+    border-top: 1px solid #a8a7a7;
+    border-bottom: 2px solid #a8a7a7;
 }
 
 thead td {
@@ -286,7 +288,7 @@ tr td:last-child {
 }
 
 .status.yellow {
-    background: yellow;
+    background: rgb(240, 240, 26);
 }
 
 .status.red {
@@ -318,19 +320,19 @@ tr td:last-child {
 .info h4 {
     font-size: .8rem;
     font-weight: 700;
-    color: #222;
+    color: blue;
 }
 
 .info small {
     font-weight: 600;
-    color: var(--text-grey);
+    color: var(--color-dark);
 }
 
 .contact span {
     font-size: 1.2rem;
     display: inline-block;
     margin-left: .5rem;
-    color: var(--main-color);
+    color: blue;
 }
 
 @media only screen and (max-width: 1200px) {
