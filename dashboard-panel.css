@@ -429,7 +429,7 @@ body
     position: absolute;
     bottom: 4.5rem;
     width: 2rem;
-    height: 8rem;
+    height: 10rem;
     border-radius: .8rem;
     box-shadow: 13px 13px 20px #cbced1,
                 -13px -13px 20px #ffffff;
@@ -488,7 +488,7 @@ body
     width: 8rem;
     text-transform: uppercase;
     font-size: 1.2rem;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .chart .box li:before
@@ -497,10 +497,10 @@ body
     position: absolute;
     bottom: 0;
     width: 100%;
-    background: rgb(227, 37, 16);
+    background: rgb(9, 13, 231);
     border-radius: .6rem;
     animation: bar 10s linear infinite;
-    animation-delay: calc(-2s*var(--i));
+    animation-delay: calc(-10s*var(--i));
 }
 
 @keyframes bar
