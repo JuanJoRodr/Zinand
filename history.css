@@ -50,12 +50,12 @@
 .sidebar-menu a {
     padding-left: 1rem;
     display: block;
-    color: blue;
-    font-size: 1.1rem;
+    color: #00004d;
+    font-size: 1.2rem;
 }
 
 .sidebar-menu a.active {
-    background: blue;
+    background: rgb(119, 192, 119);
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: var(--main-color);
@@ -121,7 +121,7 @@ header {
 }
 
 header h2 {
-    color: blue;
+    color: #00004d;
 }
 a{
     text-decoration: none;
