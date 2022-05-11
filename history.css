@@ -1,5 +1,5 @@
 :root {
-    --main-color: #00004d;
+    --main-color: rgb(227, 220, 220);
     --color-dark: #1D2231;
     --text-grey: #8390A2;
 }
@@ -29,7 +29,7 @@
     height: 90px;
     border-radius: 20px;
     padding: 1rem 0rem 1rem 2rem;
-    color: #fff;
+    color: blue;
 }
 
 .sidebar-brand span {
@@ -50,12 +50,12 @@
 .sidebar-menu a {
     padding-left: 1rem;
     display: block;
-    color: #fff;
+    color: blue;
     font-size: 1.1rem;
 }
 
 .sidebar-menu a.active {
-    background: #fff;
+    background: blue;
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: var(--main-color);
@@ -135,7 +135,7 @@ header label span {
 .search-wrapper {
     border: 1px solid #ccc;
     border-radius: 30px;
-    height: 50px;
+    height: 35px;
     display: flex;
     align-items: center;
     overflow-x: hidden;
