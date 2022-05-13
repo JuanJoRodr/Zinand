@@ -1,7 +1,14 @@
 body {
-  font-family: monospace;
+  font-family:  "poppins", sans-serif;
+  background: url(img/Depositphotos_2425789_XL.jpg);
 }
 
+.titulo{
+  color: #fff;
+}
+.titulo2{
+  color: #fff;
+}
 .container {
   width: 100%;
   max-width: 1000px;
@@ -25,8 +32,8 @@ body {
 }
 
 .table tr {
-  background-color: #f8f8f8;
-  border: 1px solid #ddd;
+  background-color: #fff;
+  border: 1px solid rgb(7, 210, 44);
 }
 
 .table th, .table td {
@@ -37,15 +44,19 @@ body {
 
 .table thead th{ 
   text-transform: uppercase;
-  background-color: #ddd;
+  background-color: rgb(119, 192, 119);
 }
 
 .table tbody tr:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(250, 245, 245, 0.2);
 }
 
 .table tbody td:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: blue;
+  font-size: 16px;
+  color: #fff;
+  padding: 8px;
+  text-align: center;
 }
 
 @media screen and (max-width: 600px) {
