@@ -229,19 +229,19 @@ header label{
 .newsletter{
     text-align: center;
     padding:5rem 1rem;
-    background:url(img/subscribe-bg.png) no-repeat;
+/*     background:url(img/subscribe-bg2.png) no-repeat; */
     background-size: cover;
     background-position: center;
 }
 
 .newsletter h3{
-    color:#fff;
+    color: blue;
     font-size: 3rem;
     text-transform: uppercase;
 }
 
 .newsletter p{
-    color:#fff;
+    color: blue;
     font-size: 1.6rem;
     margin:2rem auto;
     width:70rem;
@@ -250,7 +250,7 @@ header label{
 .newsletter form{
     display: flex;
     max-width: 70rem;
-    border:.2rem solid #fff;
+    border:.2rem solid blue;
     padding:.5rem;
     border-radius: 5rem;
     margin:2rem auto;
@@ -262,26 +262,27 @@ header label{
     font-size: 1.7rem;
     background:none;
     width:100%;
-    color:#fff;
+    color: blue;
     text-transform: none;
     background:none;
 }
 
 .newsletter form input[type="email"]::placeholder{
-    color:#eee;
+    color: blue;
     text-transform: capitalize;
 }
 
 .newsletter form input[type="submit"]{
-    background:#fff;
+    background: blue;
     width:20rem;
     font-size: 1.7rem;
+    color: #fff;
     border-radius: 5rem;
     cursor: pointer;
 }
 
 .newsletter form input[type="submit"]:hover{
-    color:var(--pink);
+    color:var(--green);
 }
 
 .review .box-container{
