@@ -269,7 +269,6 @@ header label{
 
 .newsletter form input[type="email"]::placeholder{
     color: blue;
-    text-transform: capitalize;
 }
 
 .newsletter form input[type="submit"]{
